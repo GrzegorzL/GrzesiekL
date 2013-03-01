@@ -1,5 +1,11 @@
 # Notatki do Technologii Internetowych
 
+<blockquote>
+> Dzień bez kodowania jest dniem straconym
+>
+> W Bzyl
+
+
 Znaczniki:
 
 * p
