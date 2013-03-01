@@ -1,4 +1,11 @@
-GrzesiekL
-=========
+# Notatki do Technologii Internetowych
 
-Grzesiek pierwsze notatki
+Znaczniki:
+
+* p
+* ul, ol
+*  li
+*  a
+*  h
+*  img
+*  
