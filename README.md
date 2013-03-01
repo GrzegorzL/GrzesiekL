@@ -29,7 +29,7 @@ Szablon pliku HTML5:
 </body>
 </html>
 ```
-
+***
 
 " Witam! Informuję, że w dniu 02.03.2013 r. o godz. 15.00 odbędzie się w Gdańsku manifestacja sprzeciwu
 wobec działalności grupy zniewalającej Polaków, zwanej całkowicie niesłusznie rządem, 
