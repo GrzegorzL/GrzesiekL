@@ -42,4 +42,4 @@ przejdziemy pod pomnik pomordowanych w 1970 r. stoczniowców - "Trzy Krzyże".
 
 *ala* ma kota
 
-***ala*** ma kota
+***ala*** ma kota [Elementarz Falskiego](http://www.sportfan.pl/galeria/tak-sie-bawia-sportowcy-zobacz-fotki-z-ich-wakacji-40883)
