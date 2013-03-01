@@ -29,3 +29,17 @@ Szablon pliku HTML5:
 </body>
 </html>
 ```
+
+
+" Witam! Informuję, że w dniu 02.03.2013 r. o godz. 15.00 odbędzie się w Gdańsku manifestacja sprzeciwu
+wobec działalności grupy zniewalającej Polaków, zwanej całkowicie niesłusznie rządem, 
+pod hasłem "NIE DLA OBCYCH SIŁ ZBROJNYCH W POLSCE". <br> Jeśli jesteś zaintereso­­­­­wa­­­­­na­­­­­/ny zmi
+anami w Polsce powinieneś/po­­­­­wi­­­­n­naś być obecnym na tej, tak bardzo ważnej mani
+festacji. Spotykamy się przed klubem "AKWEN" /budynek Solidarności/. Po uformowaniu grupy 
+przejdziemy pod pomnik pomordowanych w 1970 r. stoczniowców - "Trzy Krzyże".
+
+**ala** ma kota
+
+*ala* ma kota
+
+***ala*** ma kota
