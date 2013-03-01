@@ -1,0 +1,5 @@
+#JP
+
+int main() {
+ printf("witaj witaj\n')
+}
