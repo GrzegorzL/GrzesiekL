@@ -242,5 +242,9 @@ getchar();
 return 0;
 }
 ```
+<h2> Zadania z kartki
 
+Wypisz liczby cakowite od 0 do 23 za pomoca petli for, while i do-while
+ 
+```c
 
