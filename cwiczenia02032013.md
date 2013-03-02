@@ -1,3 +1,5 @@
+Sobota 02.03.2013 cwieczenia  zProgramowania w C
+
 #include<studio.h>
 ```c
 int main(){
