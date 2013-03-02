@@ -245,6 +245,19 @@ return 0;
 <h2> Zadania z kartki
 
 Wypisz liczby cakowite od 0 do 23 za pomoca petli for, while i do-while
- 
+
+<ol> Petla for
 ```c
+#include <stdio.h>
+int main(){
+int i;
+for(i=0;i<=23;i++)
+printf("%d,",i);
+getchar();
+return 0;
+}
+```
+
+
+
 
