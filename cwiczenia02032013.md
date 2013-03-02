@@ -130,7 +130,7 @@ return 0;
 ```
 
 ..i to samo, ale zmienno przecinkowe, czyli dopisujemy double oraz np. po procentach lf i iloci po przecinku kropka i liczba np - .2
-
+  albo ...%5.2lf - czyli rozmiar pola 5 i ilosc liczb po przecinku to 2
 ```c
 #include <stdio.h>
 int main () {
