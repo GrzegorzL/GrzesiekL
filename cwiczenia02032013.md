@@ -244,7 +244,7 @@ return 0;
 ```
 <h2> Zadania z kartki
 
-Wypisz liczby cakowite od 0 do 23 za pomoca petli for, while i do-while
+1.Wypisz liczby cakowite od 0 do 23 za pomoca petli for, while i do-while
 
 <ol> Petla for
 ```c
@@ -289,4 +289,4 @@ getchar ();
 ```
 komentarz - trzy wspolne cechy: i=0, i-i+1, i<=23
 
-
+2.Wypisz liczby od -3.5 do 7.5 z krokiem co 0.5 za pomoca petli for i while
