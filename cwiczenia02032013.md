@@ -104,5 +104,56 @@ dwa getchart, jedno czeka, drugie czeka az wcisniemy enter
 ....idziemy dalej.............
 
 
+Obliczenia w petli
+
+Cwiczenie: przeliczanie stopni farenhajta na celsiusza
+
+#include <stdio.h>
+int main () {
+   int fahr,celcius;
+   int lower,upper,step;
+   lower=0;
+   upper=300;
+   step=20;
+ fahr=lower;
+  while(fahr<=upper){                                          //mniejsze  lub równe, nie moze być większe
+  celcius=5*(fahr-32)/9;
+  printf("%d\t%d\n",fahr,celcius);
+  fahr=fahr+step;                               //w programowaniu są wykonywane rownoznaczne działania od lewej do prawej np.przy 
+}                                               //a+b*c/d  -jak jest mnozenie i dzielenie to od lewej
+                                                 //wzór który oblicza celsjusze
+getchar();                              
+getchar();
+return 0;
+}
+
+..i to samo, ale zmienno przecinkowe, czyli dopisujemy double oraz np. po procentach lf i iloci po przecinku kropka i liczba np - .2
+
+#include <stdio.h>
+int main () {
+   double fahr,celcius;
+   int lower,upper,step;
+   lower=0;
+   upper=300;
+   step=20;
+ fahr=lower;
+  while(fahr<=upper){                                          //mniejsze  lub równe, nie moze być większe
+  celcius=5*(fahr-32)/9;
+  printf("%lf\t%lf\n",fahr,celcius);
+  fahr=fahr+step;                               //w programowaniu są wykonywane rownoznaczne działania od lewej do prawej np.przy 
+}                                               //a+b*c/d  -jak jest mnozenie i dzielenie to od lewej
+                                                 //wzór który oblicza celsjusze
+getchar();                              
+getchar();
+return 0;
+}
+
+
+....
+
+
+
+
+
 
 
