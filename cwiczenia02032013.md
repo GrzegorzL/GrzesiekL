@@ -257,7 +257,22 @@ getchar();
 return 0;
 }
 ```
+<ol> Petla while
+```c
+#include <stdio.h>
+int main(){
+int i;
+i=0;
+while(i<=23){
+printf("%d,",i);
+i=i+1;
+}
+getchar();getchar();
+return 0;
+}
+```
 
+<ol> Petla do-while
 
 
 
