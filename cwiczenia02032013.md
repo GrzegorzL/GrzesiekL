@@ -172,6 +172,37 @@ return 0;
 }
 ```
 
+<h2>Ciag Fibonaciego - liczy sume dwóch kolejnych miejsc z ciagu
+czyli suma z miejsca 1 i 2 jest w miejscu 3, w miejscu 4 jest liczba z 2 i 3...itd  
+
+```c
+#include <stdio.h>
+ int main ()
+{                                    /*petla do/while - ciagi Fibonaciego u1=1, u2=2, Un=Un-1 +Un-2 dla n>2, pokazuje wyraz w ciagu, i suma dwóch przed szukanym*/
+  int u1,u2,u3;
+    int n;
+    int i;
+  do
+    { 
+      printf("Podaj numer wyrazu(co najmniej 3):");
+      scanf ("%d",&n);  
+    }
+  while (n<3);
+  
+  u2=u1=1;
+  i=2;
+  while (i++<n)
+ { u3=u1+u2;
+ u1=u2;
+ u2=u3;
+}
+printf ("Wyraz o numerze %d ma wartosc %d", n,u3); 
+ 
+getchar();   
+getchar();                           
+return 0;
+}
+```
 
 
 
