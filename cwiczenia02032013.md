@@ -94,3 +94,15 @@ int main () {
 }
 ```
 ***
+
+Grzeska notki opisowe:
+
+
+&r - ampersant - wskaznik do zmiennych
+dwa getchart, jedno czeka, drugie czeka az wcisniemy enter
+
+....idziemy dalej.............
+
+
+
+
