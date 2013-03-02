@@ -32,3 +32,20 @@ double a=3,b=7;
 printf("%.0lf+%.0lf=&.0lf\n", a,b,a+b);
 }
 ```
+
+Oblicz pole kola o promieniu
+
+<math.h>  - ma dokladne Pi - stala M_PI
+
+```c
+#include <stdio.h>
+#include<math.h>
+int main () {
+double r;
+puts("podaj promien kola:");
+scanf("%lf",&r);
+printf("Pole kola o promieniu %lf wynosi %lf",r,M_PI*r*r);
+getchar();
+getchar();
+return 0;
+}
