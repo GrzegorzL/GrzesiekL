@@ -272,7 +272,21 @@ return 0;
 }
 ```
 
-<ol> Petla do-while
+<ol> Petla do-while (tylko dodaje linie i leci pionowo)
+
+```c
+#include <stdio.h>
+int main(){
+int n=0;
+do {
+printf ("%d\n", n);    
+n=n+1; 
+}
+while (n<23);
+printf ("%d\n", n);  
+getchar ();
+}
+```
 
 
 
