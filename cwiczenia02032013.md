@@ -212,8 +212,29 @@ return 0;
 }
 ```
 
-<h2>Cwiczenie na petle for
+<h2># Cwiczenie na robienie trojkata z wykorzystaniem petli for
 
-
+```c
+#include <stdio.h>
+#define znak '*'
+ int main ()
+{ int lbwier;
+  int lw;
+  int lodst;
+  int j;
+  puts("Ile wierszy?");
+  scanf("%d",&lbwier);
+  for (lw=0;lw<lbwier;lw++)
+  {
+  lodst=lbwier-lw-1;
+  for (j=0; j<lodst; j++) putchar(' ');
+  for (j=0; j<2*lw+1; j++) putchar(znak);
+  putchar('\n');
+  }                                
+getchar();   
+getchar();                           
+return 0;
+}
+```
 
 
