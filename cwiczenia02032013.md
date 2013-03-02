@@ -212,7 +212,13 @@ return 0;
 }
 ```
 
-<h2># Cwiczenie na robienie trojkata z wykorzystaniem petli for
+<h2>Cwiczenie na robienie trojkata z wykorzystaniem petli for
+
+Komentarz: stala nazywa sie znak, bo znaki umiesczamy w pojedynczym apostrofie
+  petla for prebiega przez wszystkie wiersze, zwiekszaj liczbe wierszy o 1, liczba odstepów, to ile spacji wyswietlic na poczatku kazdej kolejnki
+  putchar - funkcja ktora wyswietla na ekran jeden znaczek, nastepnie petla ktora wyswietla znaczki, tj. dwa razy numer wiersza plus jeden
+  po zakonczeniu wyswietlania wszystklich gwiazdek, wyswietlamy nowa linie (\n) w pojedynczym apostrofie
+  lbwier - liczba wierszy, lw- liczba wierszy, lodst - liczba odstepów
 
 ```c
 #include <stdio.h>
