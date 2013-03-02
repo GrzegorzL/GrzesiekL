@@ -154,7 +154,23 @@ return 0;
 ```
 ....
 
+Cwiczenia  - DEFINE i petla for
+```c
+#include <stdio.h>
+#define LOWER 0                   // stale preprocesora jezyka C, nie moze byc na koncu srednika,wszystkie wystapienia slowa lower zamien na o, 
+#define UPPER 300                    // wszystkie wystapienia upper zamien na 300, a step na 20 - działa jak automat, bierze i zastepuje i tyle!!!!
+#define STEP 20
 
+int main () {
+  int fahr;
+  for(fahr=LOWER;fahr<=UPPER;fahr=fahr+STEP)                    // 3 czesci - za fahr podstawiamy LOWEr, otem sprawdmy czy LOWER jest mneijsze/równe - 
+  printf("%3d %6.1lf\n",fahr,(5.0/9.0)*(fahr-32));                                                              // jak jest to wracamy i zminna far zwiekszana o 20, i petla jes tykonywana, i tak dalej az fahr bedzie wiekszy od upper
+                                                               // warunek3 po kazdym przebiegu petli zmieniamy, za instrukacja for nie ma srednika
+                                                               // tu jest koniec instrukcji for - srednik, 
+getchar();                              
+return 0;
+}
+```
 
 
 
