@@ -173,6 +173,7 @@ return 0;
 ```
 
 <h2>Ciag Fibonaciego - liczy sume dwóch kolejnych miejsc z ciagu
+
 czyli suma z miejsca 1 i 2 jest w miejscu 3, w miejscu 4 jest liczba z sumy 2 i 3...itd  
 komentarz: petla wykonana raz i dopiero potem sprawdzony warunek, i wiecej razy jesli zostanie speniony - to zasady petli do/while
 petla do/while mozna zabezpieczyc sie przed blednymi danymi wprowadzonycmi przez uzytkownika
