@@ -473,15 +473,35 @@ Kod programu wypisującego wartości funkcji sin i cos dla kątów od 0 do 180 s
 #include <stdio.h>
 #include <math.h>
 int main() {
-double i;
-    for(i=0;i<=180;i=i+30) {
-       printf("sin(%.0lf)= %lf \n",i,sin(i*M_PI/180));
-       printf("cos(%.0lf)= %lf \n\n",i ,cos(i*M_PI/180));
+    double x;
+
+  printf ("Zadanie wykonane w petli FOR:\n\n");
+
+    for (x=0;x<=180;x=x+30) {
+        printf("sin(%.0lf)= %lf \n",x,sin(x*M_PI/180));
+        printf("cos(%.0lf)= %lf \n\n",x ,cos(x*M_PI/180));
 }
-    getchar();
-    return 0;
+
+printf ("Zadanie wykonane w petli do-while:\n\n");
+
+x=0;
+do {
+    printf("sin(%.0lf)= %lf \n",x,sin(x*M_PI/180));
+    printf("cos(%.0lf)= %lf \n\n",x ,cos(x*M_PI/180));
+    x=x+30;
 }
+while (x<=180);
+
+getchar();
+return 0;
+}
+
 ```
+
+
+
+
+
 ---
 Kod programu, który wyświetla tabliczkę mnożenia do 13:
 
@@ -543,4 +563,6 @@ char i='a';
     return 0;
 }
 ```
-
+%c - wywietla jako znaczek
+%d  - wyswietla jako liczba
+%x/n - wyswietla jako w systemie szesnastkowym
