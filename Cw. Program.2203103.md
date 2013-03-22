@@ -27,3 +27,35 @@ int main () {
 
 ```
 Cw 4 
+
+```
+#include <stdio.h>
+int main() {
+int i, n;
+    printf("Podaj liczbe:");
+    scanf("%d", &n);
+    for(i=1;i<=n;i++) {                         /*Pętla for*/
+    printf("%d %d %d \n", i, i*i, i*i*i);
+    }
+
+    printf("\n");                               /*oddzielenie wyników*/
+
+    i=1;                                        /*Pętla while*/
+    while(i<=n) {
+    printf("%d %d %d \n", i, i*i, i*i*i);
+    i++;
+    }
+
+    printf("\n");                               /*oddzielenie wyników*/
+
+    i=1;                                        /*Pętla do-while*/
+    do  {
+    printf("%d %d %d \n", i, i*i, i*i*i);
+    i++;
+        }
+    while(i<=n);
+    getchar();
+    getchar();
+    return 0;
+}
+```
